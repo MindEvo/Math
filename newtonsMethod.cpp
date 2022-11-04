@@ -9,26 +9,27 @@ you are searching for.
 #include <iostream>
 using std::cout, std::cin;
 
-float newtonsMethod(int n, float guess);
-void test();
+float NewtonsMethod(int n, float guess);
+void Test();
 
 int main() {
-    test();
+    // Test();
     return 0;
 }
 
-float newtonsMethod(int n, float guess) {
+float NewtonsMethod(int n, float guess) {
     for (int i = 0; i < 5; ++i) {
         guess -= (guess * guess - n) / (2 * guess);
     }
     return guess;
 }
 
-void test() {
-    int n; float guess;
+void Test() {
+    int n; 
+    float guess;
     cout << "Enter the number: ";
     cin >> n;
     cout << "Enter your guess for the root of number: ";
     cin >> guess;
-    cout << newtonsMethod(n, guess);
+    cout << NewtonsMethod(n, guess);
 }

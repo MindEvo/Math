@@ -18,6 +18,10 @@ int main() {
     return 0;
 }
 
+////////////////////////////////////////////////
+// Cross is passed as an empty vector.        //
+// Result will be stored in cross.            //
+////////////////////////////////////////////////
 void CrossProduct(std::vector<int> &v1, std::vector<int> &v2, std::vector<int> &cross) {
     cross.push_back(v1[1]*v2[2] - v1[2]*v2[1]);
     cross.push_back(v1[2]*v2[0] - v1[0]*v2[2]);

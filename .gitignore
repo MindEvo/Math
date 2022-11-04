@@ -1,2 +1,10 @@
 /cross_product.exe
 /gcd.exe
+dot_product.exe
+array_union.exe
+newtonsMethod.exe
+.vscode/c_cpp_properties.json
+bitwiseOperator.exe
+collatz.exe
+coordinates.exe
+shapes.exe
